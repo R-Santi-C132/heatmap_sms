@@ -4,7 +4,7 @@
 
 # ---------------------    SETTING THE WORKING DIRECTORY   ---------------------
 getwd()
-setwd("C:/Users/biobl/Desktop/RStudio/DATAVIZ/CHARTS/temperature")
+setwd("C:/file path/temperature")
 
 # -------------------------     LOADING PACKAGES    ----------------------------
 ipak <- function(pkg){
@@ -20,7 +20,6 @@ packages <- c("tidyverse", "scales", "fontawesome", "ggtext", "showtext",
 ipak(packages)
 
 
-# Final plot tools
 # tidyverse: For data manipulation, visualization, and analysis.
 # scales: Nice Scales for ggplot2
 # fontawesome: Icons display in ggplot2
